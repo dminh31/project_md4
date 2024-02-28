@@ -1,0 +1,15 @@
+.table_info {
+    position: absolute;
+    width: 0%;
+    height: 100vh;
+    background-color: white;
+    z-index: 100;
+    right: 0;
+    top: 0;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+// .active {
+//     background-color: #b1c23c;
+// }
