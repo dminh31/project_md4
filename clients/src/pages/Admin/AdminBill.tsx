@@ -50,7 +50,7 @@ export default function AdminBill() {
     const handleLogOut = () => {
         localStorage.removeItem("currentUser");
         localStorage.removeItem("token");
-        window.location.href = "/login ";
+        window.location.href = "/login1";
     };
 
     useEffect(() => {
