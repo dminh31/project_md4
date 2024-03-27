@@ -148,6 +148,7 @@ export default function AdminProduct() {
                 handleClose()
                 return;
             }
+
             const formData = new FormData();
             formData.append("file", selectedMedia);
             formData.append("upload_preset", "project-md3");
@@ -162,6 +163,7 @@ export default function AdminProduct() {
                 `/api/v1/product/${newProduct.productId}`,
                 { ...newProduct, image: media }
             );
+            
             setProduct(response.data.products);
             setNewProduct({
                 nameProduct: "",
