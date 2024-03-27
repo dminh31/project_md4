@@ -47,11 +47,11 @@ export default function AdminBill() {
         setFlag(!flag);
     };
 
-    // const handleLogOut = () => {
-    //     localStorage.removeItem("currentUser");
-    //     localStorage.removeItem("token");
-    //     window.location.href = "/login1";
-    // };
+    const handleLogOut = () => {
+        localStorage.removeItem("currentUser");
+        localStorage.removeItem("token");
+        window.location.href = "/login1";
+    };
 
     // useEffect(() => {
     //     handleGetBills();
